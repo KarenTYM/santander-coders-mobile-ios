@@ -52,7 +52,7 @@ class FirstVC: UIViewController {
     }
     
     
-    /* --> override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    /* --> override func prepare(for segue: UIStoryboardSegue, sender: nil)
           - PREPARA as informações da próxima tela, PREPARA a próxima tela
           - devo utilizar quando, ao usar o performSegue(withIdentifier) eu preciso prarar alguma propriedade da próxima tela
           - o método é disparado antes de passar pra próxima tela
